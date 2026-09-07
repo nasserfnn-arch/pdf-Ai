@@ -24,7 +24,7 @@ if uploaded_file is not None:
 
     if st.button("Analyze PDF"):
 
-        webhook_url = "https://nasser-fnn.app.n8n.cloud/webhook-test/pdf-agents"
+        webhook_url = "https://nasser-fnn.app.n8n.cloud/webhook/pdf-agents"
 
         files = {
             "file": (
